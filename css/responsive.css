@@ -82,7 +82,8 @@
         align-items: flex-start !important;
     }
     .align-items-center-1{
-        align-items: center !important;
+        justify-content: center;
+        text-align: center;
     }
     .banner-section h1 {
         font-size: 31px;
@@ -101,23 +102,37 @@
     .brdr {
         height: 95px;
     }
+    .feature-section h2{
+        font-size: 34px;
+        line-height: 1.3;
+        font-weight: 500;
+    }
     .feature-inner {
-        width: 98%;
-        margin: 0 auto;
-        padding-left: 9px;
+        width: 100%;
     }
-    .feature-section h2 {
-        font-size: 16px;
+    .feature-section span{
+        display: block;
+        width: 80px;
+        height: 7px;
+        border-radius: 30px;
+        background: var(--color-7);
+        margin: 20px 0px;
+        margin: auto;
     }
-    .feature-section span {
-        margin: 0px 0px 2px;
+    .feature-section p{
+        font-size: 18px;
+        font-weight: 400;
+        line-height: 1.6;
     }
-    .feature-section p {
-        font-size: 10px;
+    .feature-section .col-6{
+        width: 100%;
+        padding: 0px 15px 20px;
     }
-    .btn-outline-primary {
-        font-size: 12px;
-        padding: 3px 20px;
+    .or-3{
+        order: 2;
+    }
+    .or-7{
+        order: 2;
     }
     .video-section {
         padding: 50px 0px;
@@ -127,32 +142,142 @@
     .align-items-center {
         align-items: flex-start !important;
     }
+    .align-items-center-1{
+        align-items: center !important;
+    }
+    .navbar-brand {
+        width: 200px;
+    }
+    .banner-section h6 {
+        font-size: 20px;
+    }
+    .banner-section h1 {
+        font-size: 26px;
+    }
     .banner-section p {
         font-size: 14px;
     }
     .btn-outline-info {
         font-size: 13px;
-        padding: 14px 10px;
+        padding: 9px 9px;
     }
     .banner-right .btn-outline-dark {
+        padding: 9px 28px;
         font-size: 13px;
-        padding: 14px 28px;
     }
     .brdr {
-        height: 92px;
+        height: 95px;
     }
     .text-section h1 {
-        font-size: 25px;
+        font-size: 31px;
     }
-    /* .feature-inner{
-        text-align: center;
-    } */
-    .feature-section span {
-        display: block;
-        margin: auto;
+    .text-section p {
+        font-size: 14px;
     }
-    .feature-section p {
-       display: block;
-       margin: 20px 0px;
+    .feature-section h2 {
+        font-size: 23px;
+    }
+    .feature-inner {
+        width: 100%;
+    }
+    .feature-section span{
+        margin: 15px auto;
+    }
+    .feature-section p{
+        font-size: 16px;
+        margin-bottom: 20px;
+    }
+    .feature-section .col-6{
+        width: 100%;
+    }
+    .or-3{
+        order: 2;
+    }
+    .or-7{
+        order: 2;
+    }
+    .video-section {
+        padding: 50px 0px;
+    }
+    iframe{
+        height: 234px;
+    }
+}
+@media (max-width: 480px){
+    .align-items-center {
+        align-items: flex-start !important;
+    }
+    .align-items-center-1{
+        align-items: center !important;
+    }
+    .navbar-brand {
+        width: 146px;
+    }
+    .banner-section h6 {
+        font-size: 14px;
+    }
+    .banner-section h1 {
+        font-size: 16px;
+        line-height: 1.6;
+    }
+    .banner-section p {
+        font-size: 14px;
+    }
+    .btn-outline-info {
+        font-size: 13px;
+        padding: 9px 9px;
+    }
+    .banner-right .btn-outline-dark {
+        padding: 9px 28px;
+        font-size: 13px;
+    }
+    .brdr {
+        height: 95px;
+    }
+    .customer-inner {
+        padding: 0px 10px;
+    }
+    .text-section h1 {
+        font-size: 19px;
+    }
+    .text-section p {
+        font-size: 12px;
+    }
+    .feature-section h2 {
+        font-size: 20px;
+    }
+    .feature-inner {
+        width: 100%;
+    }
+    .feature-section span{
+        margin: 15px auto;
+    }
+    .feature-section p{
+        font-size: 14px;
+        margin-bottom: 20px;
+    }
+    .btn-outline-primary {
+        font-size: 14px;
+    }
+    .feature-section .col-6{
+        width: 100%;
+    }
+    .or-3{
+        order: 2;
+    }
+    .or-7{
+        order: 2;
+    }
+    .video-section {
+        padding: 12px 0px 0;
+    }
+    .video-section p {
+        font-size: 18px;
+    }
+    iframe{
+        height: 164px;
+    }
+    footer h2 {
+        font-size: 21px;
     }
 }
