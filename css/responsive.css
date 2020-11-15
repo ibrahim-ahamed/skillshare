@@ -159,6 +159,9 @@
     .navbar-brand {
         width: 200px;
     }
+    .banner-section {
+        padding: 129px 0px 80px;
+    }
     .banner-section h6 {
         font-size: 20px;
     }
@@ -177,7 +180,10 @@
         font-size: 13px;
     }
     .brdr {
-        height: 95px;
+        width: 200px;
+        height: 1px;
+        background: #e9eceff2;
+        margin: 30px auto;
     }
     .text-section h1 {
         font-size: 31px;
@@ -188,8 +194,8 @@
     .feature-section h2 {
         font-size: 23px;
     }
-    .feature-inner {
-        width: 100%;
+    .banner-content {
+        padding-right: 0px;
     }
     .feature-section span{
         margin: 15px auto;
@@ -224,26 +230,33 @@
     .navbar-brand {
         width: 146px;
     }
+    .banner-section {
+        padding: 129px 0px 80px;
+    }
     .banner-section h6 {
         font-size: 14px;
     }
     .banner-section h1 {
-        font-size: 16px;
+        font-size: 14px;
         line-height: 1.6;
     }
     .banner-section p {
-        font-size: 14px;
+        font-size: 10px;
+        margin-bottom: 15px;
     }
     .btn-outline-info {
-        font-size: 13px;
-        padding: 9px 9px;
+        font-size: 12px;
+        padding: 8px 12px;
     }
     .banner-right .btn-outline-dark {
-        padding: 9px 10px;
-        font-size: 13px;
+        padding: 8px 24px;
+        font-size: 12px;
     }
     .brdr {
-        height: 125px;
+        width: 200px;
+        height: 1px;
+        background: #e9eceff2;
+        margin: 30px auto;
     }
     .customer-inner {
         padding: 0px 10px;
@@ -257,8 +270,8 @@
     .feature-section h2 {
         font-size: 20px;
     }
-    .feature-inner {
-        width: 100%;
+    .banner-content {
+        padding-right: 0px;
     }
     .feature-section span{
         margin: 15px auto;
