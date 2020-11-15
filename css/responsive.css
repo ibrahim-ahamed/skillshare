@@ -1,9 +1,66 @@
 @media (max-width: 1399px){
-    .feature-section h2 {
-        font-size: 30px;
+    .navbar-nav .nav-item {
+        padding: 10px 12px;
     }
-    .feature-section span {
-        margin: 12px 0px;
+    .navbar-nav .nav-item .nav-link {
+        font-size: 15px;
+    }
+    .btn-custom {
+        font-size: 15px;
+        padding: 8px 30px;
+    }
+    .banner-section h6{
+        font-size: 24px;
+    }
+    .banner-section h1{
+        font-size: 46px;
+    }
+    .banner-section p{
+        font-size: 18px;
+    }
+    .banner-right .btn-outline-dark{
+        padding: 14px 66px;
+        font-size: 18px;
+    }
+    .btn-outline-info{
+        padding: 14px 40px;
+        font-size: 18px;
+    }
+    .customar-section p{
+        font-size: 18px;
+    }
+    .text-section h1{
+        font-size: 40px;
+    }
+    .text-section p{
+        font-size: 18px;
+    }
+    .btn-outline-primary{
+        font-size: 18px;
+    }
+    .feature-section h2{
+        font-size: 34px;
+    }
+    .feature-section p{
+        font-size: 17px;
+    }
+    .video-section p{
+        font-size: 20px;
+    }
+    .denton-section p{
+        font-size: 18px;
+    }
+    .denton-section span{
+        font-size: 14px;
+    }
+    footer h2{
+        font-size: 40px;
+    }
+    footer ul li a{
+        font-size: 14px;
+    }
+    footer p{
+        font-size: 16px;
     }
 }
 @media (max-width: 1199px){
